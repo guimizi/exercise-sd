@@ -1,0 +1,6 @@
+<div *ngIf="data" class="container"
+     [class.-success]="data.status == 'success'"
+     [class.-warning]="data.status == 'warning'"
+     [class.-error]="data.status == 'danger'" (click)="onclick($event)">
+
+</div>

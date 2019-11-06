@@ -1,0 +1,15 @@
+.container {
+  height: 100px;
+
+  &.-success {
+    background-color: green;
+  }
+
+  &.-warning {
+    background-color: yellow;
+  }
+
+  &.-error {
+    background-color: orange;
+  }
+}
